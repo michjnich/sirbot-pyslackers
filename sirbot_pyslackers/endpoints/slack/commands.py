@@ -263,9 +263,9 @@ async def xpost(command, app):
     response["unfurl_links"] = False
 
     response["text"] = (
-        "Please don't cross post the same question in multiple channels."
-        "There may not be a lot of folks online or active at any given moment,"
-        "but please be patient. If your question fits in multiple channels, please"
+        "Please don't cross post the same question in multiple channels. "
+        "There may not be a lot of folks online or active at any given moment, "
+        "but please be patient. If your question fits in multiple channels, please "
         "pick the one you think is most suitable and post it there."
     )
 
